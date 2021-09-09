@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire en JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="center">
+    <ul id="progressbar">
+      <li class="active">Etape 1</li>
+      <li>Etape 2</li>
+      <li>Etape 3</li>
+      
+    </ul>
+    <form>
+      <div class="inputbox">
+        <input type="text" required="required">
+        <span>Nom</span>
+      </div>
+
+      <div class="inputbox">
+        <input type="text" required="required">
+        <span>Prénoms</span>
+      </div>
+
+      <div class="inputbox">
+        <input type="date" id="start" name="trip-start"
+                value="2000-01-01"
+                placeholder="Date de naissance"
+                min="2000-01-01">
+      </div>
+      <div class="inputbox">
+        <form method="get" action="/page2">
+          <button type="submit">Continue</button>
+      </form>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
